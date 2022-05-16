@@ -32,7 +32,7 @@ for j in range(n):
         x=[]
         k=2
         return k;
-    u,ul=soluser(l1,n)
+    u=soluser(l1,n)
     if ans==u:
         cp+=1
         print('YES')
